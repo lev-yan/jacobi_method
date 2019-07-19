@@ -29,7 +29,6 @@ mygcov: Jacobi.cpp
 	xdg-open ./rs/index.html  #you need xdg-open in your pc
   
 generate:
-	cd /gener
 	make -f make_gener clean
 	make -f make_gener
 	./glaunch
